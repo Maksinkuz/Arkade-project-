@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="35" height="35" tilewidth="8" tileheight="8" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" source="colored_tilemap_packed.tsx"/>
+ <layer id="1" name="Слой тайлов 1" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt0KENADAMA8HMkNE7cXlBQEkMztLzk6uy1gGxzJbz5BcWFhYWFpb9WFhYWFhYth0sLL+WlF16fU6T
+  </data>
+ </layer>
+ <layer id="5" name="coins" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJAAAIA7Gu6f6LOIBfQYRkgvsUmgBb6joAGOwSAOAP341LDbPKAQw=
+  </data>
+ </layer>
+ <layer id="6" name="enemies" width="35" height="35" visible="0" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1TkKACAMBEA/4f+/ah+wEBM8mGmsJGFFtjV+1k8vAMAxsQNmnaAr8sgS9vlHb+rhXLmTMZcalfl6O240AI2BAP0=
+  </data>
+ </layer>
+ <layer id="2" name="collisions" width="35" height="35" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJztlt0KgCAMhfduPaGRBD1teSfhfmwztXbggJSOjzl1AQDWAbxdjmCjFGdRODoLyVLau14spbi12kFXu5YsWs3AQuUbq6VArJHU4JNzhM3n4kj+O8tcLFit5XXZIy/xNs7vR2f5JgsnKUt+Dx+dWaSxRmFp1TNQLK3e8JlY8hxyLFzPgFnKYvFdqj+zUPv4Ngs1x1mcpUbOgq/Xvq9WTn3RCRwkxSE=
+  </data>
+ </layer>
+ <layer id="3" name="secret" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJAAAIBDFx/8qJXeB7ERK4/qoAAAB+mdCVDnnx4sWLl38Wa9EDPw==
+  </data>
+ </layer>
+ <layer id="7" name="exit" width="35" height="35" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAMA6DFef+EjzEGmsAEAAAAYNu1A8x7bcQAKQ==
+  </data>
+ </layer>
+ <layer id="8" name="spawn_point" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7CZwb9FHOwjPK2CJjTzHQAAAADg3AKt1gAm
+  </data>
+ </layer>
+ <layer id="9" name="keys" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6D3tH8PY9w5SEACAAAA8Nu0A5y31fAAXA==
+  </data>
+ </layer>
+</map>

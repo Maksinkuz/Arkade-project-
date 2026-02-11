@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="35" height="35" tilewidth="8" tileheight="8" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" source="colored_tilemap_packed.tsx"/>
+ <tileset firstgid="161" source="colored_tilemap_packed.tsx"/>
+ <layer id="1" name="Слой тайлов 1" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt0MEJADAMAsDM0P2H7RIJkfYEv3JYlZUTUBYWFhYWlm0Hy7yla+O1X1hYWPYdLCwsLL9ZUnIB7jBMgQ==
+  </data>
+ </layer>
+ <layer id="8" name="spawn_point" width="35" height="35" opacity="0.8">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6CXsX9FY9xNSEACAPDPtAMAAJyyidMAJg==
+  </data>
+ </layer>
+ <layer id="6" name="coins" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt1zERAAAIAzFs4t8ICpg5IFHwHRsBvZwOAAAAYL1v3/Lb3isKg1EBDA==
+  </data>
+ </layer>
+ <layer id="4" name="exit" width="35" height="35" opacity="0.76">
+  <data encoding="base64" compression="zlib">
+   eJztzkEJAAAIBLCLY/+EZjgQ/GwJlgDAvfkOAAAAFBYR4gAp
+  </data>
+ </layer>
+ <layer id="2" name="collisions" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztl9EKhSAMhvf+d8WJoKc951xIMjb9N10q9MMgVurndM42ItonsM/PDuqnQ3nWvuH+nizomCNZ0HhFrZHmX5llo3t/S75872vtSmZh8fpaYpxYOO9IFs+4VpYa58wsaa3QWHtZpP1siUuulC8X858k5xfSp5fF897LkuanGY+Htb101kTWI6teFlkSC1JTpDyp9VFrI7EgcXoqjxCWPE9ylfIsisWjWVnQGmA5p0r3IsTH30fEYQWWETVghbhYWGpnZcv/MmdB71KWuaBqXaOVWHqqJ0sr92ws1jM/yv61/QsKGr9A
+  </data>
+ </layer>
+ <layer id="7" name="enemies" width="35" height="35" visible="0" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENACAIRFGWuP1XtbAjWimES/5roJBQICECLlT0FgAmU4oA5sj7yZ5uuuRVdYA7BX/eUcfMTj1e+nKvevyeW6cFfb0BpQ==
+  </data>
+ </layer>
+ <layer id="5" name="keys" width="35" height="35" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6D3tH8PY3w6SEACAAAAwGfTDhywevAAXA==
+  </data>
+ </layer>
+ <layer id="3" name="secret" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDD8n1jECAa4+Ahtsn8Rv9WQFy8XXnIIAAAA2Gk3OxkG
+  </data>
+ </layer>
+</map>
+
